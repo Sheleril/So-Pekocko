@@ -30,10 +30,63 @@ L'application So Pekocko est une application web permettant aux utilisateurs d�
 <h2 id="prerequis">Prérequis</h2>
 
 <p>Avant toute chose, il faut cloner le projet via GitHub vers le dossier de votre choix :</p>
-    ```sh
-   git clone https://github.com/Sheleril/So-Pekocko.git
-   ```
+
+```sh
+git clone https://github.com/Sheleril/So-Pekocko.git
+```
+:warning: Attention, pour que votre site fonctionne et que la connexion à la base de donnée puisse se faire, il faut crée un fichier dans votre dossier Backend.
+L'appeler ".env" , et suivre la structure qui suit :
+
+```js
+TOKEN_SECRET_KEY=tokenSecretKey
+
+DB_CLUSTER=ClusterName
+DB_USER=UserName
+DB_PASS=Password
+```
+
+Ceci est une sécurité pour la base de donnée, si vous souhaitez y accéder, je vous laisse [cliquer ici](mailto:sheleril68@gmail.com) pour me demander les variables *tokenSecretKey*, *ClusterName* et *Password* :smiley:
+
 
 <h2 id="installation">Installation</h2>
+
+<h3 align="center">Côté Frontend</h3>
+
+Ciblez le Frontend avec votre terminal
+
+```sh
+cd frontend
+```
+
+Installez NPM
+
+```sh
+npm install
+```
+Lancez le serveur Frontend
+
+```sh
+ng serve
+```
+
+:warning: Pensez à garder ce terminal ouvert :warning:  
+
+<h3 align="center">Côté Backend</h3>
+
+Dans un second terminal, ciblez le backend
+```sh
+cd backend
+```
+
+Installez NPM
+```sh
+npm install
+```
+
+
+
+
+
+
 
 
