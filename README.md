@@ -30,7 +30,7 @@ L'application So Pekocko est une application web permettant aux utilisateurs d‚Ä
 <h2 id="prerequis">Pr√©requis</h2>
 
 <p>Avant toute chose, il faut cloner le projet via GitHub vers le dossier de votre choix :</p>
-```sh
+    ```sh
    git clone https://github.com/Sheleril/So-Pekocko.git
    ```
 
