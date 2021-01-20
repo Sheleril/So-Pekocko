@@ -28,9 +28,9 @@ L'application So Pekocko est une application web permettant aux utilisateurs d�
 </details>
 
 <h2 id="demarrage" align="center">Démarrage</h2>
-===
+
 <h3 id="prerequis">Prérequis</h3>
-===
+
 <p>Avant toute chose, il faut cloner le projet via GitHub vers le dossier de votre choix :</p>
 
 ```sh
@@ -54,7 +54,7 @@ Ceci est une sécurité pour la base de donnée, si vous souhaitez y accéder, j
 
 
 <h4 align="center">Côté Frontend</h4>
-===
+
 
 Ciblez le Frontend avec votre terminal
 
@@ -76,7 +76,7 @@ ng serve
 :warning: Pensez à garder ce terminal ouvert :warning:  
 
 <h4 align="center">Côté Backend</h4>
-===
+
 
 Dans un second terminal, ciblez le backend
 ```sh
@@ -98,10 +98,10 @@ nodemon server
 Enfin, pour lancer le site vous pouvez cliquer si dessous:   
 http://localhost:4200/login :bowtie:  
 
-<img src="img_readme/sopekocko.png" width="500px">
+<p  align="center" ><img src="img_readme/sopekocko.png" width="900px"></p>
 
 <h2 align="center" id="apropos"> A propos du site </h2>
-===
+
 
 <h3 id="outils">Outils utilisés &#x1F6E0; </h3>
 
@@ -115,7 +115,7 @@ http://localhost:4200/login :bowtie:
 * [Note de cadrage](img_readme/Cadrage.pdf)
 
 <h2 id="dependence" align="center">Dépendences NPM</h2>
-===
+
 
 | Dépendance | Description | Documentation |   
 |---|---|---|
